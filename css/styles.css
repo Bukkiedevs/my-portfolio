@@ -5,6 +5,7 @@
 }
 body {
   margin-top: 100px;
+  background-color: burlywood;
 }
 
 h1,
@@ -77,4 +78,8 @@ p {
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
+}
+.main-link {
+  text-decoration: none;
+  color: black;
 }
