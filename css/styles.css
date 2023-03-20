@@ -2,10 +2,12 @@
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --heading-font-family: "Playfair Display", serif;
+  --sub-heading-font-family: "Playfair Display", serif;
 }
 body {
   margin-top: 100px;
-  background-color: #6c63ff;
+  font-family: var(--sub-heading-font-family);
 }
 
 h1,
@@ -13,14 +15,20 @@ h2,
 h3 {
   text-align: center;
   margin: 0;
+  color: black;
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 65px;
+  font-family: var(--heading-font-family);
+  line-height: 1.5;
+  font-weight: bolder;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 35px;
+  font-family: var(--sub-heading-font-family);
+  font-weight: bold;
 }
 
 h3 {
@@ -31,6 +39,13 @@ h3 {
 p {
   font-size: 18px;
   line-height: 1.5;
+  text-align: center;
+}
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
 }
 
 .navigation-links {
@@ -76,10 +91,27 @@ p {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
-  font-size: 28px;
+  font-size: 14px;
   text-decoration: none;
+  margin-bottom: 25px;
 }
 .main-link {
   text-decoration: none;
+  color: black;
+}
+
+.desk-table {
+  float: right;
+  margin: 65px 35px 55px 65px;
+  border-radius: 5px;
+  max-width: 50%;
+}
+
+.btn {
+  margin-top: 200px;
+  font-size: 18px;
+  color: white;
+}
+.btn:hover {
   color: black;
 }
