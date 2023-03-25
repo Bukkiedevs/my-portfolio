@@ -33,6 +33,7 @@ h2 {
 
 p {
   font-size: 18px;
+  font-weight: normal;
   line-height: 1.5;
   text-align: center;
 }
@@ -41,9 +42,6 @@ p {
   font-weight: bold;
   margin: 0;
   color: #272142;
-}
-.heading {
-  margin-top: 150px;
 }
 
 .navigation-links {
