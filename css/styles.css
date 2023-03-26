@@ -43,11 +43,16 @@ p {
   color: #272142;
 }
 
-.desk-tabl {
-  float: right;
-  margin: 65px 35px 55px 65px;
-  border-radius: 5px;
-  max-width: 50%;
+.main-link {
+  text-decoration: none;
+  color: black;
+}
+.main-link:hover {
+  color: white;
+}
+.btn-outline-primary {
+  padding: 15px 30px;
+  margin-left: 180px;
 }
 
 .btn {
