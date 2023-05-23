@@ -9,15 +9,7 @@
 body {
   margin-top: 100px;
   font-family: var(--default-font-family);
-  background: linear-gradient(
-    99.6deg,
-    rgb(112, 128, 152) 10.6%,
-    rgb(242, 227, 234) 32.9%,
-    rgb(234, 202, 213) 52.7%,
-    rgb(220, 227, 239) 72.8%,
-    rgb(185, 205, 227) 81.1%,
-    rgb(154, 180, 212) 102.4%
-  );
+  background: #dbd8e3;
 }
 
 h1,
@@ -113,4 +105,8 @@ footer .social-links a:hover {
   color: white;
   background: #0b5ed7;
   transform: rotate(5deg);
+}
+.navbar-brand img {
+  width: 40px;
+  height: auto;
 }
