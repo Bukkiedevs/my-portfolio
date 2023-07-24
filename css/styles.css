@@ -10,15 +10,6 @@ body {
   margin-top: 100px;
   font-family: var(--default-font-family);
 }
-@media (max-width: 600px) {
-  .project-2 {
-    display: none;
-  }
-  .btn-outline-primary {
-    margin-right: 250px;
-    padding: 43px 30px;
-  }
-}
 
 h1,
 h2,
@@ -92,8 +83,6 @@ p {
   background-color: #f8f8fa;
   padding-right: 105px;
   margin-top: 55px;
-  margin-left: -90px;
-  margin-right: -90px;
 }
 footer {
   margin: 100px 0;
