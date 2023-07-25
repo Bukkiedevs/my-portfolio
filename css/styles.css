@@ -10,12 +10,6 @@ body {
   margin-top: 100px;
   font-family: var(--default-font-family);
 }
-@media (max-width: 767px) {
-  .btn-outline-primary {
-    margin: 0 auto;
-    display: block;
-  }
-}
 h1,
 h2,
 h3 {
@@ -58,7 +52,6 @@ p {
   color: white;
 }
 .btn-outline-primary {
-  padding: 30px 30px;
   margin-left: 200px;
 }
 .btn {
@@ -66,7 +59,6 @@ p {
   color: white;
   font-size: 18px;
   line-height: 18px;
-  padding: 15px 10px;
   margin-top: 80px;
   font-size: 18px;
 }
