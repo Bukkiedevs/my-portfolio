@@ -47,7 +47,7 @@ p {
   color: #272142;
 }
 .hero h1 {
-  animation-duration: 4s;
+  animation-duration: 3s;
   animation-name: slidein;
 }
 @keyframes slidein {
