@@ -50,6 +50,10 @@ p {
   animation-duration: 3s;
   animation-name: slidein;
 }
+.img-office {
+  animation-duration: 4s;
+  animation-name: slidein;
+}
 @keyframes slidein {
   from {
     margin-left: 100%;
